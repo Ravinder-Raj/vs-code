@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    font-family: "Dancing Script", cursive;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url(https://www.wallpaperup.com/uploads/wallpapers/2017/05/08/1089386/aa6ba7d0b08c4ae7190d9ce16d2567ae-1400.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+}
+
+
+.header {
+    font-size: 1.2rem;
+    color: lightgreen;
+    background-color: rgb(38, 38, 38);
+    width: 80%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: initial;
+    border-image: initial;
+    padding: 5px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.main-content {
+    width: 100%;
+    height: 300px;
+    background-color: transparent;
+    box-shadow: 0px 0px 10px;
+    backdrop-filter: blur(16px);
+    color: lightgreen;
+    border-radius: 15px;
+    padding: 50px 40px;
+}
+
+.main-content .person {
+    font-size: 1.6rem;
+    color: darkseagreen;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.button-area button {
+    background-color: rgb(38, 38, 38);
+    color: currentcolor;
+    font-size: 1.3rem;
+    margin-top: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
