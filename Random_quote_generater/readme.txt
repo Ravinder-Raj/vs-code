@@ -19,4 +19,4 @@ Follow these steps to get the Quoro Generator up and running on your local machi
 1. Clone the repository:
 
    ```bash
-   $ git clone 
+   $ git clone https://github.com/genius007-pixel/vs-code.git
